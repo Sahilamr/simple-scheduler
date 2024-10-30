@@ -1,7 +1,3 @@
-Here is the updated README file with point 5 formatted like the other points:
-
----
-
 # SimpleScheduler
 
 ## Project Description
