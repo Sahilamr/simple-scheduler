@@ -58,10 +58,12 @@ make
    ```bash
    exit
    ```
+   5. **Process Output **:
+   - we have implemented SIGINT signal to see the  scheduler process out.
 
 ### Important Notes
 
-- Always run the `make clean` command to clear shared memory before scheduling policies to avoid conflicts with previous runs.
+- Always run the `clean` command  inside the shell to clear shared memory before scheduling policies to avoid conflicts with previous runs.
 - All time calculations are in nanoseconds for higher accuracy.
 
 ---
