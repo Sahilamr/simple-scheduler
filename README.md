@@ -1,3 +1,7 @@
+Here is the updated README file with point 5 formatted like the other points:
+
+---
+
 # SimpleScheduler
 
 ## Project Description
@@ -38,7 +42,7 @@ make
 
 1. **Run SimpleShell**:
    ```bash
-   ./SimpleShell <NCPU> <TSLICE>
+   ./shell <NCPU> <TSLICE>
    ```
 
    - `NCPU`: Number of CPU cores to simulate.
@@ -51,19 +55,22 @@ make
 
 3. **Submit a job with priority**:
    ```bash
-   submit ./helloworld 
+   submit ./helloworld
    ```
 
 4. **Exit SimpleShell**:
    ```bash
    exit
    ```
-5. **Process Output **:
-   - we have implemented SIGINT signal to see the  scheduler process out.
+
+5. **Process Output**:
+   ```bash
+   Use the `SIGINT` signal to view the scheduler process output.
+   ```
 
 ### Important Notes
 
-- Always run the `clean` command  inside the shell to clear shared memory before scheduling policies to avoid conflicts with previous runs.
+- Always run the `clean` command inside the shell to clear shared memory before scheduling policies to avoid conflicts with previous runs.
 - All time calculations are in nanoseconds for higher accuracy.
 
 ---
@@ -119,5 +126,3 @@ It also calculates and displays the average wait and completion times for all jo
 - Vikas Meena 2023593
 
 ---
-
-This README provides all the necessary information for setting up and running the SimpleScheduler project. Feel free to further customize it if needed!
