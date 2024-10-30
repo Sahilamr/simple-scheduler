@@ -58,7 +58,7 @@ make
    ```bash
    exit
    ```
-   5. **Process Output **:
+5. **Process Output **:
    - we have implemented SIGINT signal to see the  scheduler process out.
 
 ### Important Notes
