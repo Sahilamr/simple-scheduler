@@ -64,9 +64,9 @@ make
    ```
 
 5. **Process Output**:
-   ```bash
-   Use the `SIGINT` signal to view the scheduler process output.
-   ```
+   
+    - Use the `SIGINT` signal to view the scheduler process output.
+   
 
 ### Important Notes
 
